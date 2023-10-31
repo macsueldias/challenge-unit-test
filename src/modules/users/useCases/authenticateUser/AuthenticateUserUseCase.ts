@@ -40,6 +40,7 @@ export class AuthenticateUserUseCase {
       expiresIn,
     });
 
+
     return {
       user: {
         id: user.id,
